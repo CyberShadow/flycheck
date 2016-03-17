@@ -6138,6 +6138,7 @@ Requires DMD 2.066 or newer.  See URL `http://dlang.org/'."
             "-debug"                    ; Compile in debug mode
             "-o-"                       ; Don't generate an object file
             "-vcolumns"                 ; Add columns in output
+            "-unittest"                 ; Check unit test code
             "-wi" ; Compilation will continue even if there are warnings
             (eval (concat "-I" (flycheck-d-base-directory)))
             (option-list "-I" flycheck-dmd-include-path concat)
